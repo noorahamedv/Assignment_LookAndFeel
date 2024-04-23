@@ -1,0 +1,68 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Added more font options */
+    margin: 0;
+    padding: 0;
+    body {
+    background-image: url("P:\Assignment3_weblook\tampa_bay.jpg.jpg");
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+
+}
+
+header {
+    background-color: #3498db;
+    color: white;
+    padding: 20px 0; /* Increase padding for better spacing */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold; /* Make the navigation links bold */
+    transition: color 0.3s; /* Add a smooth transition effect */
+    font-size: 18px; /* Increase font size */
+}
+
+nav ul li a:hover {
+    color: #ecf0f1; /* Change color on hover */
+}
+
+.content {
+    text-align: center;
+    margin-top: 100px; /* Increase top margin for better alignment */
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif; /* Use Montserrat font for headings */
+    font-size: 48px; /* Increase font size for headings */
+}
+
+p {
+    font-size: 18px; /* Increase font size for paragraphs */
+    line-height: 1.6; /* Increase line height for better readability */
+}
+
+footer {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow at the top */
+}
